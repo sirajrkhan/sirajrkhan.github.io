@@ -1,3 +1,3 @@
 sirajrkhan.github.io
 ====================
-Creative a sandbox with GitHub.io Site
+Creating a sandbox with GitHub.io Site
