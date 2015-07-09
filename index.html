@@ -24,7 +24,11 @@
   </head>
 
   <body>
-
+<div class="alert alert-danger" role="alert">
+  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+  <span id="msg" class="sr-only">Error:</span>
+  Enter a valid email address
+</div>
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -62,7 +66,6 @@
     <script src="//getbootstrap.com/dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="//getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
-    <div id="msg"></div>
 <script>
 (function(){
   if('querySelector' in document
