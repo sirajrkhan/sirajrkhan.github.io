@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Device Info</title>
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<style></style>
+</head>
+<body>
+<form>
+  <table class="table table-striped" width="100%" border="0" cellspacing="0" cellpadding="0" summary="Information about the devices...">
+    <caption>
+    <h3>Device Info</h3>
+    </caption>
+    <tr>
+      <th scope="col">Device Sr.</th>
+      <th scope="col">Device Name</th>
+      <th scope="col">IP</th>
+      <th scope="col">Action</th>
+      <th scope="col">Status</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Fan</td>
+      <td>192.168.1.1</td>
+      <td><label><input type="checkbox" name="action1" value="Select" checked> Select</label></td>
+      <td><p>
+          <label>
+            <input type="radio" name="status" value="On" id="status_0">
+            On</label>
+          <label>
+            <input type="radio" name="status" value="Off" id="status_1" checked>
+            Off</label>
+        </p></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>A.C.</td>
+      <td>192.168.1.2</td>
+      <td><input type="checkbox" name="checkbox" id="checkbox2">
+        <label for="checkbox">Select </label></td>
+      <td><p>
+          <label>
+            <input type="radio" name="status2" value="On" id="status_3" >
+            On</label>
+          <label>
+            <input type="radio" name="status2" value="Off" id="status_4">
+            Off</label>
+        </p></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>LED</td>
+      <td>192.168.1.3</td>
+      <td><input type="checkbox" name="checkbox" id="checkbox3">
+        <label for="checkbox">Select </label></td>
+      <td><p>
+          <label>
+            <input type="radio" name="status3" value="On" id="status_5" >
+            On</label>
+          <label>
+            <input type="radio" name="status3" value="Off" id="status_6" checked>
+            Off</label>
+        </p></td>
+    </tr>
+  </table>
+  <div class="text-center">
+  <button value="Apply">Apply</button>
+  <button value="Refresh">Refresh</button>
+  </div>
+</form>
+<script>
+
+</script>
+</body>
+</html>
